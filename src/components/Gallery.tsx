@@ -2,8 +2,11 @@
 const Gallery = () => {
     const artworks = [
         { title: 'Landscapes', medium: 'Oil on Canvas', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
-        { title: 'Landscapes', medium: 'Acrylic Pour', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
-        { title: 'Landscapes', medium: 'Mixed Media', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
+        { title: 'Landscapes', medium: 'Acrylic Pour', image: `${import.meta.env.BASE_URL}images/20231001_210629.jpg` },
+        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/20240809_183835.jpg` },
+        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/demo1.jpg` },
+        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/demo2.jpg` },
+        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/demo3.jpg` },
     ];
 
     return (
