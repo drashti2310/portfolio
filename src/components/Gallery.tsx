@@ -1,9 +1,9 @@
 
 const Gallery = () => {
     const artworks = [
-        { title: 'Landscapes', medium: 'Oil on Canvas', image: '/images/IMG_4814.jpeg' },
-        { title: 'Landscapes', medium: 'Acrylic Pour', image: '/images/IMG_4814.jpeg' },
-        { title: 'Landscapes', medium: 'Mixed Media', image: '/images/IMG_4814.jpeg' },
+        { title: 'Landscapes', medium: 'Oil on Canvas', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
+        { title: 'Landscapes', medium: 'Acrylic Pour', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
+        { title: 'Landscapes', medium: 'Mixed Media', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
     ];
 
     return (

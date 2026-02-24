@@ -51,7 +51,7 @@ const Hero = () => {
 
                             <div className="relative glass p-2 rounded-3xl transform transition-transform duration-500 hover:scale-[1.02]">
                                 <img
-                                    src="/images/pic1.png"
+                                    src={`${import.meta.env.BASE_URL}images/pic1.png`}
                                     alt="Drashti Patel - Portfolio"
                                     className="w-full h-auto rounded-2xl shadow-xl object-cover object-center aspect-4/5"
                                 />
