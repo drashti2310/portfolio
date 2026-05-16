@@ -16,6 +16,13 @@ const Journey = () => {
             color: 'indigo'
         },
         {
+            period: 'Jan 2024 - May 2024',
+            role: 'Quality Control Officer',
+            company: 'Trivago Life care',
+            desc: 'I worked for five months in a pharmaceutical company as a Quality Control Officer, where I was involved in sterilization processes and antibiotic testing.',
+            color: 'pink'
+        },
+        {
             period: 'Jan 2023 - May 2023',
             role: 'Lab Technician',
             company: 'Jivandeep Pathology Laboratory',
