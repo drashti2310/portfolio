@@ -1,12 +1,12 @@
 
 const Gallery = () => {
     const artworks = [
-        { title: 'Landscapes', medium: 'Oil on Canvas', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
-        { title: 'Landscapes', medium: 'Acrylic Pour', image: `${import.meta.env.BASE_URL}images/20231001_210629.jpg` },
-        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/20240809_183835.jpg` },
-        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/demo1.jpg` },
-        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/demo2.jpg` },
-        { title: 'Krishna', medium: 'god', image: `${import.meta.env.BASE_URL}images/demo3.jpg` },
+        { title: 'Riverside Cottage', medium: 'An expressive landscape sketch using vivid colors to bring a peaceful scene to life.', image: `${import.meta.env.BASE_URL}images/IMG_4814.jpeg` },
+        { title: 'Abstract Scenery', medium: 'Acrylic Pour', image: `${import.meta.env.BASE_URL}images/20231001_210629.jpg` },
+        { title: 'Lord Krishna', medium: 'A detailed devotional artwork.', image: `${import.meta.env.BASE_URL}images/20240809_183835.jpg` },
+        { title: 'Vibrant Countryside', medium: 'An expressive landscape sketch using vivid colors to bring a peaceful scene to life.', image: `${import.meta.env.BASE_URL}images/demo1.jpg` },
+        { title: 'Colorful Landscape Sketch', medium: 'A vibrant display of nature and architecture, drawn with rich colored pencils.', image: `${import.meta.env.BASE_URL}images/demo2.jpg` },
+        { title: 'Colorful Mirror Work Plate', medium: 'A decorative circular wall hanging showcasing detailed folk art patterns.', image: `${import.meta.env.BASE_URL}images/demo3.jpg` },
     ];
 
     return (
@@ -50,11 +50,11 @@ const Gallery = () => {
                     ))}
                 </div>
 
-                <div className="mt-16 text-center">
+                {/* <div className="mt-16 text-center">
                     <button className="px-8 py-3 rounded-full border border-indigo-200 dark:border-indigo-800 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 font-medium transition-colors">
                         View Full Collection
                     </button>
-                </div>
+                </div> */}
             </div>
         </section>
     );

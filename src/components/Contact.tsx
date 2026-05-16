@@ -36,7 +36,7 @@ const Contact = () => {
                                 <div>
                                     <h6 className="text-sm font-bold text-slate-500 uppercase tracking-wider mb-1">Call Me</h6>
                                     <p className="text-lg font-medium text-slate-800 dark:text-slate-200">
-                                        +91 9876543210
+                                        +91 8320206236
                                     </p>
                                 </div>
                             </div>
@@ -98,7 +98,6 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

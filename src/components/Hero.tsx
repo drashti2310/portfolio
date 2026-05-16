@@ -35,12 +35,12 @@ const Hero = () => {
                             <a href="#" className="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors transform hover:scale-110">
                                 <i className="fa-brands fa-linkedin-in"></i>
                             </a>
-                            <a href="#" className="hover:text-pink-600 dark:hover:text-pink-400 transition-colors transform hover:scale-110">
+                            <a href="https://www.instagram.com/Drashti_2_3_1_0/" className="hover:text-pink-600 dark:hover:text-pink-400 transition-colors transform hover:scale-110">
                                 <i className="fa-brands fa-instagram"></i>
                             </a>
-                            <a href="#" className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors transform hover:scale-110">
+                            {/* <a href="#" className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors transform hover:scale-110">
                                 <i className="fa-brands fa-behance"></i>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
 
@@ -51,7 +51,7 @@ const Hero = () => {
 
                             <div className="relative glass p-2 rounded-3xl transform transition-transform duration-500 hover:scale-[1.02]">
                                 <img
-                                    src={`${import.meta.env.BASE_URL}images/pic1.png`}
+                                    src={`${import.meta.env.BASE_URL}images/photo1.jpeg`}
                                     alt="Drashti Patel - Portfolio"
                                     className="w-full h-auto rounded-2xl shadow-xl object-cover object-center aspect-4/5"
                                 />

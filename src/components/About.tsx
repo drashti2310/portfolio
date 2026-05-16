@@ -1,4 +1,3 @@
-import React from 'react';
 
 const About = () => {
     const skills = [
@@ -15,10 +14,10 @@ const About = () => {
 
                     <div className="lg:w-1/2">
                         <div className="glass p-8 md:p-12 rounded-3xl relative group hover:shadow-2xl hover:shadow-indigo-500/10 transition-all duration-500">
-                            <div className="absolute -top-6 -left-6 w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full mix-blend-multiply filter blur-2xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
+                            <div className="absolute -top-6 -left-6 w-20 h-20 bg-linear-to-br from-indigo-500 to-purple-500 rounded-full mix-blend-multiply filter blur-2xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
 
                             <h2 className="text-4xl md:text-5xl font-bold mb-8 text-slate-800 dark:text-white relative z-10">
-                                The Scientist & <br className="hidden sm:block" /> The Artist
+                                The Researcher & <br className="hidden sm:block" /> The Artist
                             </h2>
 
                             <div className="space-y-6 text-lg text-slate-600 dark:text-slate-300 relative z-10 leading-relaxed">
